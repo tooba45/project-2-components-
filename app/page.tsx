@@ -4,10 +4,13 @@ import Hero from './component/Hero/Hero';
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex h-screen flex-col">
       <Header></Header>
       <Hero></Hero>
       <Footer></Footer>
+
+
+      
     </div>
   )
 }
